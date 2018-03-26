@@ -1,25 +1,78 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Isaiah</title>
+    <title>dndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndnd</title>
     <meta name="description" content="Operation Creation">
     <meta name="author" content="Isaiah Osmun">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="assets/main.js"></script>
+    <link rel="icon" type="image/png" href="assets/redlogoicon.png" />
 </head>
 
 <body>
-    <h2>d&d Javascript for DM</h2>
-
-    <select id="mySelect">
-        <option value="d20">d20</option>
-        <option value="d6">4d6</option>
-    </select>
-    <button type="button" onclick="myFunction()">Calculate</button>
-    <p id="demo" style="display:none"></p>
+    <img style="position: fixed;top: 0;left: 0;" src="assets/logo.png"/>
+    <center>
+        <h1>DND MANAGER</h1>
+        <h2>D&D Javascript for DM</h2>
+        <select id="mySelect">
+            <option value="d20">d20</option>
+            <option value="d6">4d6</option>
+        </select>
+        <select id="raceSelect">
+            <option>None</option>
+            <option>Aarakocra</option>
+            <option>Aasimar</option>
+            <option>Bugbear</option>
+            <option>Dragonborn</option>
+            <option>Dwarf</option>
+            <option>Elf</option>
+            <option>Feral Tiefling</option>
+            <option>Firbolg</option>
+            <option>Genasi</option>
+            <option>Gnome</option>
+            <option>Goblin</option>
+            <option>Goliath</option>
+            <option>Half-Elf</option>
+            <option>Halfling</option>
+            <option>Half-Orc</option>
+            <option>Hobgoblin</option>
+            <option>Human</option>
+            <option>Kenku</option>
+            <option>Kobold</option>
+            <option>Lizardfolk</option>
+            <option>Orc</option>
+            <option>Tabaxi</option>
+            <option>Tiefling</option>
+            <option>Tortle</option>
+            <option>Triton</option>
+            <option>Yuan-ti Pureblood</option>
+        </select>
+        <button type="button" onclick="myFunction()">Calculate</button>
+        <p id="demo"></p>
+        <p id="firstdash" style="display:none">===========================</p>
+        <p id="addInfo"></p>
+        <p id="seconddash" style="display:none">===========================</p>
+        <p id="statsAdded"></p>
+        <br/>
+        <select id="dice">
+            <option>D100</option>
+            <option>D50</option>
+            <option>D20</option>
+            <option>D12</option>
+            <option>D10</option>
+            <option>D8</option>
+            <option>D6</option>
+            <option>D4</option>
+            <option>D2</option>
+        </select>
+        <button type="button" onclick="myDice()">Roll</button>
+        <p id="demodice"></p>
+        <p id="demoindex"></p>
+    </center>
+    <button style="position: fixed;bottom: 0;right: 0;" type="button" onclick="btnClear()">Clear</button>
 </body>
 
 </html>
