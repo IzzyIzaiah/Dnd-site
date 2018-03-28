@@ -147,11 +147,11 @@ function myFunction() {
       }
       if (y == 22) {
         dex + 2
-        char + 1
+        charis + 1
         document.getElementById('addInfo').innerHTML = "Dexterity +2, Charisma +1"
       }
       if (y == 23) {
-        char + 2
+        charis + 2
         intel + 1
         document.getElementById('addInfo').innerHTML = "Charisma +2, Intelligence +1"
       }
@@ -362,11 +362,11 @@ function myFunction() {
     }
     if (y == 22) {
       dex + 2
-      char + 1
+      charis + 1
       document.getElementById('addInfo').innerHTML = "Dexterity +2, Charisma +1"
     }
     if (y == 23) {
-      char + 2
+      charis + 2
       intel + 1
       document.getElementById('addInfo').innerHTML = "Charisma +2, Intelligence +1"
     }
