@@ -1,0 +1,40 @@
+.button {
+    background-color: white; /* Green */
+    border: none;
+    color: #1B2CC1;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #1B2CC1;
+  }
+  
+  .button2:hover {
+    background-color: #1B2CC1;
+    color: white;
+  }
+  body{
+    margin: 0%;
+    background-color: #ABD2FA;
+  }
+  
+  /*
+  https://coolors.co/091540-7692ff-abd2fa-3d518c-1b2cc1
+  */
+  @media screen and (max-width: 481px){
+  
+  
+      /*write your CSS-Code here*/
+    
+    
+    }
+  /*
+    https://www.w3schools.com/css/css3_buttons.asp

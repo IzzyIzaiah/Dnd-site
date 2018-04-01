@@ -7,13 +7,14 @@
     <title>dndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndndnd</title>
     <meta name="description" content="Operation Creation">
     <meta name="author" content="Isaiah Osmun">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/styles.css">
     <script src="assets/main.js"></script>
     <link rel="icon" type="image/png" href="assets/redlogoicon.png" />
 </head>
 
 <body>
-    <img style="position: fixed;top: 0;left: 0;" src="assets/logo.png"/>
+    <img style="position: fixed;top: 0;left: 0;" src="assets/logo.png" />
     <center>
         <h1>DND MANAGER</h1>
         <h2>D&D Javascript for DM</h2>
@@ -50,7 +51,7 @@
             <option>Triton</option>
             <option>Yuan-ti Pureblood</option>
         </select>
-        <button type="button" onclick="myFunction()">Calculate</button>
+        <button type="button" onclick="myFunction()" class="button button2">Calculate</button>
         <p id="demo"></p>
         <p id="firstdash" style="display:none">===========================</p>
         <p id="addInfo"></p>
@@ -68,10 +69,11 @@
             <option>D4</option>
             <option>D2</option>
         </select>
-        <button type="button" onclick="myDice()">Roll</button>
+        <button type="button" onclick="myDice()" class="button button2">Roll</button>
         <p id="demodice"></p>
         <p id="demoindex"></p>
     </center>
+
     <button style="position: fixed;bottom: 0;right: 0;" type="button" onclick="btnClear()">Clear</button>
 </body>
 
