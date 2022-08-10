@@ -1,10 +1,10 @@
-function Comparator(a, b) {
-  if (a[1] < b[1]) return -1;
-  if (a[1] > b[1]) return 1;
-  return 0;
+function Comparator (a, b) {
+  if (a[1] < b[1]) return -1
+  if (a[1] > b[1]) return 1
+  return 0
 }
 
-function myFunction() {
+function myFunction () {
   var x = document.getElementById('mySelect').selectedIndex
   var y = document.getElementById('raceSelect').selectedIndex
   var z = document.getElementById('raceSelect').options
@@ -41,79 +41,87 @@ function myFunction() {
     ]
 
     document.getElementById('demo').innerHTML = allLines.join('<br/>')
-    if (y == 0 || y == 1 || y == 2 || y == 3 || y == 3 || y == 4 || y == 5 || y == 6 || y == 7 || y == 8 || y == 9 || y == 10 || y == 11 || y == 12 || y == 13 || y == 14 || y == 15 || y == 16 || y == 17 || y == 18 || y == 19 || y == 20 || y == 21 || y == 22 || y == 23 || y == 24 || y == 25 || y == 26) {
+    if ((y == 0, y <= 26, y++)) {
       if (y == 1) {
         dex + 2
         wisd + 1
-        document.getElementById('addInfo').innerHTML = "Wisdom +1, Dexterity +2"
+        document.getElementById('addInfo').innerHTML = 'Wisdom +1, Dexterity +2'
       }
       if (y == 2) {
         charis + 2
-        document.getElementById('addInfo').innerHTML = "Charisma +2"
+        document.getElementById('addInfo').innerHTML = 'Charisma +2'
       }
       if (y == 3) {
         str + 2
         dex + 1
-        document.getElementById('addInfo').innerHTML = "Strength +2, Dexterity +1"
+        document.getElementById('addInfo').innerHTML =
+          'Strength +2, Dexterity +1'
       }
       if (y == 4) {
         str + 2
         charis + 1
-        document.getElementById('addInfo').innerHTML = "strenght +2, Charisma +1"
+        document.getElementById('addInfo').innerHTML =
+          'strenght +2, Charisma +1'
       }
       if (y == 5) {
         con + 2
-        document.getElementById('addInfo').innerHTML = "Constitution +2"
+        document.getElementById('addInfo').innerHTML = 'Constitution +2'
       }
       if (y == 6) {
         dex + 2
-        document.getElementById('addInfo').innerHTML = "Dexterity +2"
+        document.getElementById('addInfo').innerHTML = 'Dexterity +2'
       }
       if (y == 7) {
         dex + 2
         intel + 1
-        document.getElementById('addInfo').innerHTML = "Dexterity +2, Intelligence +1"
+        document.getElementById('addInfo').innerHTML =
+          'Dexterity +2, Intelligence +1'
       }
       if (y == 8) {
         wisd + 2
         str + 1
-        document.getElementById('addInfo').innerHTML = "Wisdom +2, Strenght +1"
+        document.getElementById('addInfo').innerHTML = 'Wisdom +2, Strenght +1'
       }
       if (y == 9) {
         con + 2
-        document.getElementById('addInfo').innerHTML = "Constitution +2"
+        document.getElementById('addInfo').innerHTML = 'Constitution +2'
       }
       if (y == 10) {
         intel + 2
-        document.getElementById('addInfo').innerHTML = "Intelligence +2"
+        document.getElementById('addInfo').innerHTML = 'Intelligence +2'
       }
       if (y == 11) {
         dex + 2
         con + 1
-        document.getElementById('addInfo').innerHTML = "Dexterity +2, Constitution +1"
+        document.getElementById('addInfo').innerHTML =
+          'Dexterity +2, Constitution +1'
       }
       if (y == 12) {
         str + 2
         con + 1
-        document.getElementById('addInfo').innerHTML = "Strenght +2, Constitution +1"
+        document.getElementById('addInfo').innerHTML =
+          'Strenght +2, Constitution +1'
       }
       if (y == 13) {
         charis + 2
-        document.getElementById('addInfo').innerHTML = "Charisma +2, Add +1 to 2 other ability scores"       
+        document.getElementById('addInfo').innerHTML =
+          'Charisma +2, Add +1 to 2 other ability scores'
       }
       if (y == 14) {
         dex + 2
-        document.getElementById('addInfo').innerHTML = "Dexterity +2"
+        document.getElementById('addInfo').innerHTML = 'Dexterity +2'
       }
       if (y == 15) {
         str + 2
         con + 1
-        document.getElementById('addInfo').innerHTML = "Strenght +2, Constitution +1"
+        document.getElementById('addInfo').innerHTML =
+          'Strenght +2, Constitution +1'
       }
       if (y == 16) {
         con + 2
         intel + 1
-        document.getElementById('addInfo').innerHTML = "Constitution +2, Intelligence +1"
+        document.getElementById('addInfo').innerHTML =
+          'Constitution +2, Intelligence +1'
       }
       if (y == 17) {
         con + 1
@@ -122,54 +130,61 @@ function myFunction() {
         intel + 1
         str + 1
         wisd + 1
-        document.getElementById('addInfo').innerHTML = "+1 to all stats"
+        document.getElementById('addInfo').innerHTML = '+1 to all stats'
       }
       if (y == 18) {
         dex + 2
         wisd + 1
-        document.getElementById('addInfo').innerHTML = "Dexterity +2, Wisdom +1"
+        document.getElementById('addInfo').innerHTML = 'Dexterity +2, Wisdom +1'
       }
       if (y == 19) {
         dex + 2
         str - 2
-        document.getElementById('addInfo').innerHTML = "Dexterity +2, Strenght -2"
+        document.getElementById('addInfo').innerHTML =
+          'Dexterity +2, Strenght -2'
       }
       if (y == 20) {
         con + 2
         wisd + 1
-        document.getElementById('addInfo').innerHTML = "Constitution +2, Wisdom +1"
+        document.getElementById('addInfo').innerHTML =
+          'Constitution +2, Wisdom +1'
       }
       if (y == 21) {
         str + 2
         con + 1
         int - 2
-        document.getElementById('addInfo').innerHTML = "Strenght +2, Constitution +1, Intelligence -2"
+        document.getElementById('addInfo').innerHTML =
+          'Strenght +2, Constitution +1, Intelligence -2'
       }
       if (y == 22) {
         dex + 2
         charis + 1
-        document.getElementById('addInfo').innerHTML = "Dexterity +2, Charisma +1"
+        document.getElementById('addInfo').innerHTML =
+          'Dexterity +2, Charisma +1'
       }
       if (y == 23) {
         charis + 2
         intel + 1
-        document.getElementById('addInfo').innerHTML = "Charisma +2, Intelligence +1"
+        document.getElementById('addInfo').innerHTML =
+          'Charisma +2, Intelligence +1'
       }
       if (y == 24) {
         str + 2
         wisd + 1
-        document.getElementById('addInfo').innerHTML = "Strenght +2, Wisdom +1"
+        document.getElementById('addInfo').innerHTML = 'Strenght +2, Wisdom +1'
       }
       if (y == 25) {
         str + 1
         con + 1
         charis + 1
-        document.getElementById('addInfo').innerHTML = "Strenght +1, Constitution +1, Charisma +1"
+        document.getElementById('addInfo').innerHTML =
+          'Strenght +1, Constitution +1, Charisma +1'
       }
       if (y == 26) {
         charis + 2
         intel + 1
-        document.getElementById('addInfo').innerHTML = "Charisma +2, Intelligence +1"
+        document.getElementById('addInfo').innerHTML =
+          'Charisma +2, Intelligence +1'
       }
       var dexmod = (dex - 10) / 2
       var charmod = (charis - 10) / 2
@@ -198,14 +213,18 @@ function myFunction() {
       ]
       document.getElementById('statsAdded').style.display = 'block'
       if (y == 0) {
-        document.getElementById('statsAdded').innerHTML = allLinesRace.join('<br/>')
+        document.getElementById('statsAdded').innerHTML = allLinesRace.join(
+          '<br/>'
+        )
         document.getElementById('statsAdded').style.display = 'none'
         document.getElementById('firstdash').style.display = 'none'
         document.getElementById('seconddash').style.display = 'none'
-        document.getElementById('addInfo').innerHTML = ""
+        document.getElementById('addInfo').innerHTML = ''
       }
       if (y != 0) {
-        document.getElementById('statsAdded').innerHTML = allLinesRace.join('<br/>')
+        document.getElementById('statsAdded').innerHTML = allLinesRace.join(
+          '<br/>'
+        )
         document.getElementById('statsAdded').style.display = 'block'
         document.getElementById('firstdash').style.display = 'block'
         document.getElementById('seconddash').style.display = 'block'
@@ -260,75 +279,81 @@ function myFunction() {
     if (y == 1) {
       dex + 2
       wisd + 1
-      document.getElementById('addInfo').innerHTML = "Wisdom +1, Dexterity +2"
+      document.getElementById('addInfo').innerHTML = 'Wisdom +1, Dexterity +2'
     }
     if (y == 2) {
       charis + 2
-      document.getElementById('addInfo').innerHTML = "Charisma +2"
+      document.getElementById('addInfo').innerHTML = 'Charisma +2'
     }
     if (y == 3) {
       str + 2
       dex + 1
-      document.getElementById('addInfo').innerHTML = "Strength +2, Dexterity +1"
+      document.getElementById('addInfo').innerHTML = 'Strength +2, Dexterity +1'
     }
     if (y == 4) {
       str + 2
       charis + 1
-      document.getElementById('addInfo').innerHTML = "strenght +2, Charisma +1"
+      document.getElementById('addInfo').innerHTML = 'strenght +2, Charisma +1'
     }
     if (y == 5) {
       con + 2
-      document.getElementById('addInfo').innerHTML = "Constitution +2"
+      document.getElementById('addInfo').innerHTML = 'Constitution +2'
     }
     if (y == 6) {
       dex + 2
-      document.getElementById('addInfo').innerHTML = "Dexterity +2"
+      document.getElementById('addInfo').innerHTML = 'Dexterity +2'
     }
     if (y == 7) {
       dex + 2
       intel + 1
-      document.getElementById('addInfo').innerHTML = "Dexterity +2, Intelligence +1"
+      document.getElementById('addInfo').innerHTML =
+        'Dexterity +2, Intelligence +1'
     }
     if (y == 8) {
       wisd + 2
       str + 1
-      document.getElementById('addInfo').innerHTML = "Wisdom +2, Strenght +1"
+      document.getElementById('addInfo').innerHTML = 'Wisdom +2, Strenght +1'
     }
     if (y == 9) {
       con + 2
-      document.getElementById('addInfo').innerHTML = "Constitution +2"
+      document.getElementById('addInfo').innerHTML = 'Constitution +2'
     }
     if (y == 10) {
       intel + 2
-      document.getElementById('addInfo').innerHTML = "Intelligence +2"
+      document.getElementById('addInfo').innerHTML = 'Intelligence +2'
     }
     if (y == 11) {
       dex + 2
       con + 1
-      document.getElementById('addInfo').innerHTML = "Dexterity +2, Constitution +1"
+      document.getElementById('addInfo').innerHTML =
+        'Dexterity +2, Constitution +1'
     }
     if (y == 12) {
       str + 2
       con + 1
-      document.getElementById('addInfo').innerHTML = "Strenght +2, Constitution +1"
+      document.getElementById('addInfo').innerHTML =
+        'Strenght +2, Constitution +1'
     }
     if (y == 13) {
       charis + 2
-      document.getElementById('addInfo').innerHTML = "Charisma +2, Add +1 to 2 other ability scores"       
+      document.getElementById('addInfo').innerHTML =
+        'Charisma +2, Add +1 to 2 other ability scores'
     }
     if (y == 14) {
       dex + 2
-      document.getElementById('addInfo').innerHTML = "Dexterity +2"
+      document.getElementById('addInfo').innerHTML = 'Dexterity +2'
     }
     if (y == 15) {
       str + 2
       con + 1
-      document.getElementById('addInfo').innerHTML = "Strenght +2, Constitution +1"
+      document.getElementById('addInfo').innerHTML =
+        'Strenght +2, Constitution +1'
     }
     if (y == 16) {
       con + 2
       intel + 1
-      document.getElementById('addInfo').innerHTML = "Constitution +2, Intelligence +1"
+      document.getElementById('addInfo').innerHTML =
+        'Constitution +2, Intelligence +1'
     }
     if (y == 17) {
       con + 1
@@ -337,54 +362,59 @@ function myFunction() {
       intel + 1
       str + 1
       wisd + 1
-      document.getElementById('addInfo').innerHTML = "+1 to all stats"
+      document.getElementById('addInfo').innerHTML = '+1 to all stats'
     }
     if (y == 18) {
       dex + 2
       wisd + 1
-      document.getElementById('addInfo').innerHTML = "Dexterity +2, Wisdom +1"
+      document.getElementById('addInfo').innerHTML = 'Dexterity +2, Wisdom +1'
     }
     if (y == 19) {
       dex + 2
       str - 2
-      document.getElementById('addInfo').innerHTML = "Dexterity +2, Strenght -2"
+      document.getElementById('addInfo').innerHTML = 'Dexterity +2, Strenght -2'
     }
     if (y == 20) {
       con + 2
       wisd + 1
-      document.getElementById('addInfo').innerHTML = "Constitution +2, Wisdom +1"
+      document.getElementById('addInfo').innerHTML =
+        'Constitution +2, Wisdom +1'
     }
     if (y == 21) {
       str + 2
       con + 1
       int - 2
-      document.getElementById('addInfo').innerHTML = "Strenght +2, Constitution +1, Intelligence -2"
+      document.getElementById('addInfo').innerHTML =
+        'Strenght +2, Constitution +1, Intelligence -2'
     }
     if (y == 22) {
       dex + 2
       charis + 1
-      document.getElementById('addInfo').innerHTML = "Dexterity +2, Charisma +1"
+      document.getElementById('addInfo').innerHTML = 'Dexterity +2, Charisma +1'
     }
     if (y == 23) {
       charis + 2
       intel + 1
-      document.getElementById('addInfo').innerHTML = "Charisma +2, Intelligence +1"
+      document.getElementById('addInfo').innerHTML =
+        'Charisma +2, Intelligence +1'
     }
     if (y == 24) {
       str + 2
       wisd + 1
-      document.getElementById('addInfo').innerHTML = "Strenght +2, Wisdom +1"
+      document.getElementById('addInfo').innerHTML = 'Strenght +2, Wisdom +1'
     }
     if (y == 25) {
       str + 1
       con + 1
       charis + 1
-      document.getElementById('addInfo').innerHTML = "Strenght +1, Constitution +1, Charisma +1"
+      document.getElementById('addInfo').innerHTML =
+        'Strenght +1, Constitution +1, Charisma +1'
     }
     if (y == 26) {
       charis + 2
       intel + 1
-      document.getElementById('addInfo').innerHTML = "Charisma +2, Intelligence +1"
+      document.getElementById('addInfo').innerHTML =
+        'Charisma +2, Intelligence +1'
     }
     var dexmod = (dex - 10) / 2
     var charmod = (charis - 10) / 2
@@ -422,14 +452,18 @@ function myFunction() {
       `Charisma: ${charis} Mod: ${charmod}`
     ]
     if (y == 0) {
-      document.getElementById('statsAdded').innerHTML = allLinesRace.join('<br/>')
+      document.getElementById('statsAdded').innerHTML = allLinesRace.join(
+        '<br/>'
+      )
       document.getElementById('statsAdded').style.display = 'none'
       document.getElementById('firstdash').style.display = 'none'
       document.getElementById('seconddash').style.display = 'none'
-      document.getElementById('addInfo').innerHTML = ""
+      document.getElementById('addInfo').innerHTML = ''
     }
     if (y != 0) {
-      document.getElementById('statsAdded').innerHTML = allLinesRace.join('<br/>')
+      document.getElementById('statsAdded').innerHTML = allLinesRace.join(
+        '<br/>'
+      )
       document.getElementById('statsAdded').style.display = 'block'
       document.getElementById('firstdash').style.display = 'block'
       document.getElementById('seconddash').style.display = 'block'
@@ -437,7 +471,7 @@ function myFunction() {
     document.getElementById('demo').innerHTML = allLines.join('<br/>')
   }
 }
-function myDice() {
+function myDice () {
   var x = document.getElementById('dice').selectedIndex
   var y = document.getElementById('dice').options
   var d100 = Math.floor(Math.random() * 100) + 1
@@ -479,12 +513,12 @@ function myDice() {
   document.getElementById('demoindex').innerHTML =
     'Index: ' + y[x].index + ' is ' + y[x].text
 }
-function btnClear() {
-    document.getElementById('demo').innerHTML = ''
-    document.getElementById('demodice').innerHTML = ''
-    document.getElementById('demoindex').innerHTML = ''
-    document.getElementById('firstdash').innerHTML = ''
-    document.getElementById('seconddash').innerHTML = ''
-    document.getElementById('statsAdded').innerHTML = ''
-    document.getElementById('addInfo').innerHTML = ''
+function btnClear () {
+  document.getElementById('demo').innerHTML = ''
+  document.getElementById('demodice').innerHTML = ''
+  document.getElementById('demoindex').innerHTML = ''
+  document.getElementById('firstdash').innerHTML = ''
+  document.getElementById('seconddash').innerHTML = ''
+  document.getElementById('statsAdded').innerHTML = ''
+  document.getElementById('addInfo').innerHTML = ''
 }
